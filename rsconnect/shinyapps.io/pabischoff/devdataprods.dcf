@@ -2,6 +2,6 @@ name: devdataprods
 account: pabischoff
 server: shinyapps.io
 appId: 102671
-bundleId: 454837
+bundleId: 454840
 url: https://pabischoff.shinyapps.io/devdataprods/
-when: 1463527809.4596
+when: 1463528044.0459

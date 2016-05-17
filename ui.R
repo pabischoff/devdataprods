@@ -24,8 +24,10 @@ shinyUI(fluidPage(
             # Show a plot of the generated distribution
             mainPanel(
                   plotOutput("map"),
-                  p("Historical data of the population of Puerto Rico by municipalities.Since 1899 to 2010. The information is organized in a cross-tabulation. Population censuses conducted by the US Department of War and the US Census Bureau. Based on data collected and base published by the Graduate Program in Demography of the Medical Sciences Campus of the University of Puerto Rico.")
-                  
+                  p("Historical data of the population of Puerto Rico by municipalities.Since 1899 to 2010. The information is organized in a cross-tabulation. Population censuses conducted by the US Department of War and the US Census Bureau. Based on data collected and base published by the Graduate Program in Demography of the Medical Sciences Campus of the University of Puerto Rico."),
+                  p("Sources:"),
+                  p("https://datahub.io/dataset/poblacion-de-puerto-rico-1899-2010"),
+                  p("https://datahub.io/dataset/coordenadas-geograficas-de-los-municipios-de-puerto-rico")
             )
                   )
 ))
