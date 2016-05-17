@@ -17,7 +17,8 @@ shinyUI(fluidPage(
                                               "2010"=2010)
                               ),
                   h3("Documentation"),
-                  p("This map graphically displays the population of cities in Puerto Rico by year. Select a year from the dropdown menu above to reload the map.")
+                  p("This map graphically displays the population of cities in Puerto Rico by year. Select a year from the dropdown menu above to reload the map."),
+                  a("Github", href="https://github.com/pabischoff/devdataprods")
             ),
             
             # Show a plot of the generated distribution
