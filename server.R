@@ -1,8 +1,7 @@
 library(shiny)
-library(googleVis)
 library(maptools)
 library(ggmap)
-library(grDevices)
+
 
 
 # Define server logic required to draw a histogram

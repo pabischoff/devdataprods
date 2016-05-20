@@ -1,13 +1,13 @@
 library(shiny)
 
-# Define UI for application that draws a histogram
+
 shinyUI(fluidPage(
       
       # Application title
       titlePanel("Population of Puerto Rican cities, 1899-2010"),
       
       
-      # Sidebar with a slider input for the number of bins
+      # Sidebar with an input for the year
       sidebarLayout(
             sidebarPanel(
                   selectInput("year","Year",c("1899"=1899,"1910"=1910,"1920"=1920,
